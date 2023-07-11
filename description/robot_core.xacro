@@ -171,6 +171,8 @@
             <geometry>
                 <sphere radius="${caster_wheel_radius}"/>
             </geometry>
+            <mu1 value="0.09"/>
+            <mu2 value="0.09"/>
         </collision>
         <xacro:inertial_sphere mass="${caster_wheel_mass}" radius="${caster_wheel_radius}">
             <origin xyz="0 0 0" rpy="0 0 0"/>
